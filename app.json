@@ -1,0 +1,21 @@
+{
+  "name": "NEBULA MINIBOT",
+  "description": "WhatsApp Multi-Device Bot",
+  "repository": "https://github.com/Ridz-coder01/NEBULA MINIBOT",
+  "logo": "https://files.catbox.moe/7m6u7z.jpg",
+  "keywords": ["whatsapp", "bot", "arslan-md", "baileys"],
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "Your GitHub Personal Access Token (PAT) with repo permissions",
+      "required": true
+    },
+    "GITHUB_REPO_OWNER": {
+      "description": "GitHub username or organization that owns the repository",
+      "required": true
+    },
+    "GITHUB_REPO_NAME": {
+      "description": "The name of the GitHub repository",
+      "required": true
+    }
+  }
+}
